@@ -15,10 +15,7 @@
 *.dll.config
 *.cache
 *.suo
-# Include dlls if they’re in the NuGet packages directory
-!/packages/*/lib/*.dll
-# Include dlls if they're in the CommonReferences directory
-!*CommonReferences/*.dll
+
 ####################
 # VS Upgrade stuff #
 ####################
@@ -29,6 +26,7 @@ _UpgradeReport_Files/
 bin/
 obj/
 TestResults/
+packages/
 ###################
 # Web publish log #
 ###################
